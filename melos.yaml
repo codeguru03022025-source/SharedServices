@@ -1,0 +1,4 @@
+name: sharedservice
+packages:
+  - apps/*
+  - packages/*

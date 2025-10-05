@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:sharedservices/utils/app_utils.dart';
+import 'package:sharedservices/utils/shared_utils.dart';
 
 class PrimaryText extends StatefulWidget {
   final String text;
@@ -47,7 +47,7 @@ class _PrimaryTextState extends State<PrimaryText> {
           widget.text,
           textAlign: widget.textAlign,
           textScaler: TextScaler.linear(
-            AppUtils.isTab ? 1.2 : (context.width > 400 ? 1.0 : 0.8),
+            SharedUtils.isTab ? 1.2 : (context.width > 400 ? 1.0 : 0.8),
           ),
           overflow: widget.textOverflow,
           maxLines: widget.maxLines,

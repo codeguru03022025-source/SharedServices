@@ -4,7 +4,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-class AppUtils {
+class SharedUtils {
   static bool isTab = false;
 
   static Future<bool> checkConnectivity() async {
